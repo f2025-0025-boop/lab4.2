@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"Name:\tWafa fatima\n";
+    cout<<"Department:\tSCIT\n";
+    cout<<"Favorite Quote:\t\"Learning never exhausts the mind.\"\n";
+    return 0;
+}
