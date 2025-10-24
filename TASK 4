@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int birthyear,age;
+    int currentyear = 2025;
+
+    cout<<"enter the user year of birth :";
+    cin>>birthyear;
+
+    age=currentyear - birthyear;
+
+    if(age>=18 && age<=28)
+        cout<<"you are eligble to apply"<<endl;
+
+    else
+        cout<<"you are not eligble to apply"<<endl;
+    return 0;
